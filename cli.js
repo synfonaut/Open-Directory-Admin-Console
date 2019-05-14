@@ -26,6 +26,7 @@ function show(tx) {
 function usage() {
     console.log("Usage: ./opendirectory-admin <action> [options]");
     console.log("");
+    console.log("    show           show information about this opendirectory admin");
     console.log("    uri            get current application uri");
     console.log("    uris           show all uris");
     console.log("    update_uri     redirect application to new uri");
@@ -162,6 +163,8 @@ if (cmd == "log") {
         });
     });
 
+} else if (cmd == "show") {
+    console.log("OpenDirectory Admin Protocol Address", bits.ADDRESS);
 } else if (!cmd || cmd == "help") {
     usage();
 } else {
