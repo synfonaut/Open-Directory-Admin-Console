@@ -98,7 +98,7 @@ if (cmd == "log") {
             console.log("tx: " + txid);
             console.log("http://whatsonchain.com/tx/" + txid);
             console.log("");
-            console.log("go check your application URL to confirm the redirect appears. note updates are cached, so clear your localStorage last_update_timestamp to force check");
+            console.log("go check your application URL to confirm the redirect appears. note updates are cached, so clear your localStorage admin_actions_* keys");
         }).catch((e) => {
             console.log("An error occured while updating the application URI");
             error(e);
@@ -127,7 +127,7 @@ if (cmd == "log") {
             console.log("tx: " + txid);
             console.log("http://whatsonchain.com/tx/" + txid);
             console.log("");
-            console.log("go check your application URL to confirm the attach happened");
+            console.log("go check your application URL to confirm the attach happened. note updates are cached, so clear your localStorage admin_actions_* keys");
         }).catch((e) => {
             console.log("An error occured while attaching the category_txid");
             error(e);
@@ -156,7 +156,7 @@ if (cmd == "log") {
             console.log("tx: " + txid);
             console.log("http://whatsonchain.com/tx/" + txid);
             console.log("");
-            console.log("go check your application URL to confirm the detach happened");
+            console.log("go check your application URL to confirm the detach happened. note updates are cached, so clear your localStorage admin_actions_* keys");
         }).catch((e) => {
             console.log("An error occured while detaching the category_txid");
             error(e);

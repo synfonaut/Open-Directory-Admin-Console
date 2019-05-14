@@ -8,11 +8,9 @@
 
 ## Open Directory Admin
 
-Open Directory admin let's you perform critical admin-only tasks on your directory
+Open Directory Admin let's you perform critical admin-only tasks on your directory, like updating to a new version and detatching directories you don't want listed publicly.
 
-* update_uri -> redirect users to a new url
-* detach -> remove a directory from public listing
-* attach -> re-add a directory to public listing
+The admin channel is just a custom Bitcom protocol, that creates a channel where you can sign and send messages to only your channel.
 
 ## Getting Started
 
@@ -28,3 +26,8 @@ Open Directory admin let's you perform critical admin-only tasks on your directo
 
     node cli.js help
 
+
+## TODO
+
+Add message for attach/detach
+Add message for version... changelog?
