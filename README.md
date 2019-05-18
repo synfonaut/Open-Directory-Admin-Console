@@ -50,6 +50,6 @@ The admin channel is just a custom Bitcom protocol, that creates a channel where
 
 ## TODO
 
-Add message for attach/detach
-Add message for version... changelog?
+* Add message for attach/detach
+* Add message for version... changelog?
 
