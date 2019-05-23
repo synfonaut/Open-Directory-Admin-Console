@@ -17,7 +17,7 @@
   },
   "bin": {
       "opendirectory-admin": "./cli.js"
-  }
+  },
   "author": "synfonaut",
   "license": "MIT"
 }
