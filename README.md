@@ -40,13 +40,13 @@ The admin channel is just a custom Bitcom protocol, that creates a channel where
     bit useradd
 
     # create new version
-    node cli.js update_uri bit://new-uri-goes-here
+    ./node_modules/.bin/opendirectory-admin update_uri bit://new-uri-goes-here
 
     # show log
-    node cli.js log
+    ./node_modules/.bin/opendirectory-admin log
 
     # help
-    node cli.js help
+    ./node_modules/.bin/opendirectory-admin help
 
 ## TODO
 
