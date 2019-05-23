@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const argv = require("minimist")(process.argv.slice(2));
 const Confirm = require("prompt-confirm");
 const args = argv._;

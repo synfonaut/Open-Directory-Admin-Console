@@ -15,6 +15,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "bin": {
+      "opendirectory-admin": "./cli.js"
+  }
   "author": "synfonaut",
   "license": "MIT"
 }
