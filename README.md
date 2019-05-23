@@ -33,7 +33,7 @@ The admin channel is just a custom Bitcom protocol, that creates a channel where
     mkdir opendirectory-admin
     cd opendirectory-admin
     npm install bitcom
-    npm install opendirectory-admin
+    npm install synfonaut/open-directory-admin-console
 
     # initialize admin address
     bit init
